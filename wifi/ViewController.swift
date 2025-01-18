@@ -5,8 +5,8 @@ class ViewController: UIViewController, WKNavigationDelegate {
     
     var webView: WKWebView!
     var regList: [String] = []
-    var regNo = "23BCE7452"
-    var password = "HH9jzUjy"
+    var regNo = "REGISTRATION_NUMBER" //input your registration number
+    var password = "PASSWORD"  //input your password
     var currentAttempt = 0
     
     override func viewDidLoad() {
